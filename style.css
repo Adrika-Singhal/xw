@@ -1,0 +1,35 @@
+body 
+{
+ background-color: lightpink;
+}
+
+h1
+{
+ color:rebeccapurple;
+ background-color: lightskyblue;
+}
+
+#show_sketch
+{
+   float:right; 
+}
+
+canvas
+{
+    border: 5px solid rgb(176, 221, 249);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(0, 99, 99);}
+    to {box-shadow: 1px 1px 38px rgb(171, 236, 250);}
+}
+
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
